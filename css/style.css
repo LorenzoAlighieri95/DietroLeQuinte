@@ -1,0 +1,320 @@
+﻿body {
+    background-color:whitesmoke;
+    text-align:left;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*i contenuti*/
+
+#introduzione{
+    margin:0 auto;
+    margin-top: 10%;
+}
+
+.sfondo {
+    width:92%;
+    height:81.5%;
+    margin: 0 auto;  
+}
+
+.testo{
+    float:right;
+    width:100%;
+    height:20%;
+}
+
+#testo2, #testo4, #testo6,#testo8,#testo10,#testo12{
+    float:left;
+}
+
+#testo3,#testo4,#testo5,#testo8{
+    width:45%;
+    height:100%;
+    margin-top:5%;
+}
+
+#grafico5,#grafico6,#grafico7,#grafico12{
+    width:55%;
+    height:100%;
+}
+
+.paragrafo{
+    font-size:110%;   
+    line-height: 200%; 
+    margin:5%;
+}
+
+.grafici{
+    float:left;
+    width:50%;
+    height:65%; 
+}
+
+#grafico2, #grafico4, #grafico6,#grafico8,#grafico10,#grafico12{
+    float:right; 
+}
+
+#conclusione{
+    margin:0 auto;
+    margin-top: 10%;
+}
+
+h3{
+    margin-left:5.3%;
+}
+
+/*la navbar*/
+
+.nav {
+    width: 98.93%;
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(245, 245, 245, 0.9);
+    font-size:85%;  
+    font-family: 'Dosis';
+    border-bottom: 0.5px solid lightgray;
+    font-weight: 800;
+}
+
+#titolo{
+    float:left;
+    font-weight: 100;
+    transform:scale(1.9,1.9);
+    margin-left:3.5%;
+    margin-top:-0.15%;
+    margin-right: 18%;
+    border-right: 0.5px solid lightgray;
+}
+
+li {
+    float: left
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 20px;
+    text-decoration: none;
+}
+
+.scrollNav-links:hover {
+    opacity:0.5;
+    transform:scale(1.4,1.4);
+}
+
+.scrollNav-active {
+    opacity: 0.5;
+    transform:scale(1.4,1.4);
+}
+
+/*Gestione Parallasse*/
+
+.caption{
+    position: absolute;
+    left:0;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+}
+
+.caption span.border {
+    background-color:#111;
+    color:#fff;
+    padding:18px;
+    font-size:25px;
+    letter-spacing:10px;
+}
+
+#parallax1 {  
+    background-image: url("../images/dolcevita.jpg"); 
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax2 {
+    background-image: url("../images/nightmare.jpg");
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax3 {
+    background-image: url("../images/A-bout-de-souffle.jpg");
+    height: 100%; 
+    opacity:0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax4 {
+    background-image: url("../images/caligari.jpg");   
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax5 {
+    background-image: url("../images/fauno.jpeg");
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax6{
+    background-image: url("../images/cittaIncantata.jpg");
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax7{
+    background-image: url("../images/Seventh_Seal.jpg"); 
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax8{
+    background-image: url("../images/iene.jpg"); 
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax9{
+    background-image: url("../images/metropolis.jpg");
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax10{
+    background-image: url("../images/blade_runner.jpg");
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax11{
+    background-image: url("../images/potemkin.jpg");
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax12{
+    background-image: url("../images/clint.jpg");
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax13{
+    background-image: url("../images/shining.jpg");
+    opacity:0.8;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*L'ultima pagina*/
+
+#lastPage{
+    font-size:120%;
+    text-align: center; 
+    width:100%;
+    height:30%;
+    line-height: 550%;
+}
+
+#estrai{
+	border: none;
+    background-color:transparent;
+    cursor: pointer; 
+}
+
+#estrai:hover{
+	transform:Scale(1.5,1.5);
+}
+
+#estrai:active {
+	transform:translateY(5px) Scale(1.5,1.5); 
+}
+
+.material-icons{
+	color: GoldenRod;
+}
+
+.tooltip {
+    position: relative;  
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 32%;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    margin-left:-15%;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+footer{
+    font-size:100%;
+    text-align: center; 
+    width:100%;
+    height:10%;
+    line-height: 550%;
+    font-weight: 400;
+}
+
